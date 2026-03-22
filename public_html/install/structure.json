@@ -422,6 +422,8 @@
 				"id": { "type": "INT", "length": 10, "unsigned": true, "auto_increment": true },
 				"status": { "type": "ENUM('draft','scheduled','sent','error')", "default": "'draft'" },
 				"code": { "type": "VARCHAR", "length": 255, "default": "''" },
+				"reference": { "type": "VARCHAR", "length": 255, "default": "''" },
+				"language_code": { "type": "VARCHAR", "length": 2, "default": "''" },
 				"sender": { "type": "VARCHAR", "length": 255, "default": "''" },
 				"recipients": { "type": "TEXT", "default": "''" },
 				"ccs": { "type": "TEXT", "default": "''" },
